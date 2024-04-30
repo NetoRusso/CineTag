@@ -1,0 +1,9 @@
+.container p {
+    font-size: 18px;
+    color: var(--preto);
+    font-weight: 500;
+}
+
+.container img {
+    filter: drop-shadow(10px 15px 40px rgba(0, 0, 0, 0.7));
+}
