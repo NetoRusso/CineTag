@@ -28,12 +28,13 @@ export function useFavoritoContext() {
             return setFavorito(novaLista);
         }
 
-        novaLista = favorito.filter((fav) => favoritoRepetido.id !== novoFavorito.id);
-        return setFavorito(novaLista);
+        novaLista = favorito.filter((fav) => fav.id !== novoFavorito.id);
+        
+        return setFavorito(novaLista); 
     }
 
     return {
         favorito,
-        adicionarFavorito,
+        adicionarFavorito
     }
 }
