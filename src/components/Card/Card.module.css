@@ -26,3 +26,8 @@
 .favoritar {
     width: 25px;
 }
+
+.favoritar:hover {
+    cursor: pointer;
+    scale: 1.2;
+}
